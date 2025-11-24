@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-	return {"message": "API updated"}
+	return {"message": "API updated succesfully"}
